@@ -15,3 +15,12 @@ const pickUserHand = (hand) => {
 
     pickComputerHand(hand);
 };
+
+const pickComputerHand = (hand) => {
+    let hands = ["rock", "paper", "scissors"];
+    let cpHand = hands[Math.floor(Math.random() * hands.length)];
+
+    document.getElementById("computerPickImage").src = handOptions[cpHand]
+
+    referee(hand, cpHand);
+};
