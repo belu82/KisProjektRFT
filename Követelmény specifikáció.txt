@@ -19,3 +19,19 @@ regisztráció, vagy belépés nélkül, tervezünk egy beállítások menüpont
 A játék elindítása utána, megpillanthatjuk a játék elemeit, lesz egy számláló, ami számolni fogja a pontszámokat,
 jelen esetünkben, csak a mi általunk szerzett pontokat. A játékmenet körökből áll, ezeknek a száma függ az elért eredménytől.
 A játék vége akkor következik be, ha a játékos vagy a gép eléri a 3 pontot, abban az esetben megjelenítésre kerül az hogy, a gép nyer
+
+5.Fogalomszótár
+Játék – Ez esetünkben a Kő – Papír - Olló nevezetű, az emberiséggel egyidős, alkalmi, szerencsén alapuló játék.
+
+Kő/papír/olló – Játék úgy mond választható kéz jelei, amelyek a következőképpen működnek a kő ”üti” az ollót, az olló ”szétvágja” a papírt, a papír pedig ”becsomagolja” a követ
+
+HTML - HyperText Makeup Language - magyarul: hiperszöveges jelölőnyelv - weboldalak készítéséhez kifejlesztett leírónyelv.
+
+CSS - Cascading Style Sheets - magyarul: egymásba ágyazott stílusalapok - weboldalak külleméhez kifejlesztett stílusleíró nyelv.
+
+Játékmenet - A fentebb említett játék lefolyásának folyamata.
+
+Front-End - Egy adott rendszer legfelsőbb, a felhasználóval kapcsolatot táró rétege, amelynek feladata a rendszerből kijutó adatok megjelenítése, prezentálása, illetve a bejövő adatok fogadása.
+
+Back-End - Egy adott rendszer alsóbb rétege, aminek feladata a front-end réteg felől érkező adatok feldolgozása, valamint a keletkezett eredmény front-end számára történő visszajuttatása.
+
