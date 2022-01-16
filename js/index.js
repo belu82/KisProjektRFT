@@ -4,6 +4,8 @@ const handOptions = {
     "scissors": "assets/Scissors.png"
 }
 
+let SCORE = 0;
+
 const pickUserHand = (hand) => {
     let hands = document.querySelector(".hands");
     hands.style.display = "none";
