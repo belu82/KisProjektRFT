@@ -28,3 +28,20 @@ Ezért gondoltuk úgy, hogy készítünk mi is egy ilyen, alkalmi játékot a sa
 Ezt a programot azért hozzuk létre, hogy a (szerencsejátékot szerető) emberek a szabad időjükben tudjanak játszani.
 A játék előnye, hogy nem kell hozzá regisztrálni vagy belépni, így amint elindítjuk az oldalt, már játszhatunk is.
 Amíg az oldalon maradunk addig, láthatjuk, hogy  mennyi pontal rendelkezünk, így számon tarthatjuk a nyerési sorozatunkat.
+
+7. Használati esetek
+A Játékos az alábbi tevékenységeket végezheti:
+- Játékot játszhat a gép ellen KŐ, PAPÍR, vagy OLLÓ kiválasztásával.
+- Megtekintheti az aktuális játék eredményét a képernyőn megjelenő "Nyertél!", "Vesztettél!", vagy "Döntetlen!" felirat formájában.
+- Bármikor megtekintheti a saját nyertes köreinek a számát
+- A játékot bármely pillanatban abbahagyhatja az oldal bezárásával, ilyenkor az elért pontszáma törlődik.
+- Lehetősége van a pontszámok manuális nullázására is, az oldalon elhelyezett gomb segítségével.
+
+8.Képernyőtervek
+Egy weboldal ahol választhatunk, kő, papír és olló közül. Amint kiválasztottuk a kívánt "eszközt" a számítógép is választ.
+Ha a számítógép nyert megjelenik, hogy "You Lose.", és ugyanígy a játékosnál, csak ott a "You Win" felirat jelenik meg és a mi pontjainkhoz adódik hozzá 1, ha esetleg mind a ketten ugyan azt a kézjelet választják akkor „It”s a tie”
+
+9. Forgatókönyvek
+Az oldalt megnyitva a játékos az „Game”gombra kattintva kezdheti el a játékot.
+A megfelelő elem (kő, papír vagy olló) kiválasztása után láthatja az aktuális játék eredményét.
+Az a játékos (élő vagy gépi), amelyik nyer, 1 pontot kap.
