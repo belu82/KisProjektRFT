@@ -30,15 +30,66 @@ A játékos képes kiválasztani, hogy a három közül melyikkel - kővel, pap�
     A weboldal használatához egy egyszerű böngészőre van szükség.
     A rendszert bármilyen operációs rendszeren és böngészőben haszálható lesz.
 
-     6. Archtitekturális terv
-            A rendszerhez mindössze egy webböngészőre van szükség, amely képes JavaScript kódot futtani. Mivel az egész a kliens oldalon fut, akár a HTML fájl megnyitásával futtatható a játék alkalmazás.
+6. Archtitekturális terv
+    A rendszerhez mindössze egy webböngészőre van szükség, amely képes JavaScript kódot futtani. Mivel az egész a kliens oldalon fut, akár a HTML fájl megnyitásával futtatható a játék alkalmazás.
 
-            7. Tesztterv
-            Az alkalmazás elkészítése során szükség van a folyamatos tesztelésre.
-            Tesztelni kell a gombok működését, valamint a pontszám változását, ha a játékos vagy a gép nyer, illetve az új játék kezdésénél a pontszám nullázását.
+    7. Tesztterv
+    Az alkalmazás elkészítése során szükség van a folyamatos tesztelésre.
+    Tesztelni kell a gombok működését, valamint a pontszám változását, ha a játékos vagy a gép nyer, illetve az új játék kezdésénél a pontszám nullázását.
 
-            8. Telepítési terv
-            Az alkalmazás futtatásához egy általános felhasználású böngészőre van szükség.
+    8. Telepítési terv
+    Az alkalmazás futtatásához egy általános felhasználású böngészőre van szükség.
 
-            9. Karbantartási terv
-            Az alkalmazás bővítési lehetőségét fenntartjuk. A későbbiekben 2 játékos mód is hozzáadható.
+    9. Karbantartási terv
+    Az alkalmazás bővítési lehetőségét fenntartjuk. A későbbiekben 2 játékos mód is hozzáadható.
+
+10. Elvégzett tesztek
+    10.1 Hibás tesztek
+        - Játék oldal nyertes megjelenítésének tesztje.
+        -- Az alkalmazás hibásan jelenítette meg, a "You win" opciókat.
+        -- A hiba ki lett javítva.
+
+        - Játék oldal nyertes megjelenítésének tesztje.
+        -- Az alkalmazás hibásan jelenítette meg, a "You win" és a "It's a tie" opciókat.
+        -- A hiba ki lett javítva.
+
+        - Pontszámláló tesztje
+        -- Az alkalmazásban nem futott le a játékos pontszámának növelése.
+        -- A hiba ki lett javítva.
+
+        - Navigáló gombok tesztelése.
+        -- Hibás oldalhivatkozást tartalmaztak ezért nem működtek megfelelően.
+        -- A hiba ki lett javítva.
+
+        - Játék oldalon, a "kő" gomb tesztje.
+        -- Az alkalmazás hibásan értékelte ki a gomb funkcióját.
+        -- A hiba ki lett javítva.
+
+        - Pontszámláló tesztje
+        -- Az alkalmazásban nem futott le a gép ponzszámának növelése.
+        -- A hiba ki lett javítva.
+
+        - Az olló funkció tesztje
+        -- Az alkalmazásban az olló funckió nem jó választásra hivatkozott.
+        -- A hiba ki lett javítva.
+
+        - A papír funkció tesztje
+        -- Az alkalmazásban a papír funckió az ollóra hivatkozott.
+        -- A hiba ki lett javítva.
+
+        10.2 Sikeres tesztek
+            - CSS teszt
+            -- Az alkalmazás tesztelve lett, CSS-el való design-ra.
+            -- Teszt sikeres, CSS fájlban való változtatás azonnal megjelenik az alkalmazásba.
+
+            - Gomb teszt
+            -- CSS fájlban, a gombnak sikeres méret növelése.
+
+            - Szinezés teszt
+            -- CSS segítségével, a pontszámláló tábla átszinezése.
+
+            - Betűméret teszt
+            -- CSS segítségével, az eredmény jelző méretének növelése.
+
+            - Szinezés teszt
+            -- CSS segítségével, a játékos és a gép által adott válaszok átszinezése.
