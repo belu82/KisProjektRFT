@@ -16,3 +16,20 @@ Jelenleg a program létrehozásához, elkészítéséhez szükséges adatokat, t
 A project egy szerencsére alapuló alkalmazás, amivel a játékos tesztelni tudja a nyerési esélyeit.
 Az alkalmazásban 3 féle opció közül választhat a játékos a kő, papír, illetve olló esetekből, az ellenfél a számítógép, ami ugyan ezekkel az esetekkel rendelkezik,
 így adódóan a játéknak 3 végkimenetele lehet, a nyerés, a döntetlen, és a vereség, ezek eshetősége 1/3.
+
+7. Használati esetek
+A Játékos az alábbi tevékenységeket végezheti:
+- Játékot játszhat a gép ellen KŐ, PAPÍR, vagy OLLÓ kiválasztásával.
+- Megtekintheti az aktuális játék eredményét a képernyőn megjelenő "Nyertél!", "Vesztettél!", vagy "Döntetlen!" felirat formájában.
+- Bármikor megtekintheti a saját nyertes köreinek a számát
+- A játékot bármely pillanatban abbahagyhatja az oldal bezárásával, ilyenkor az elért pontszáma törlődik.
+- Lehetősége van a pontszámok manuális nullázására is, az oldalon elhelyezett gomb segítségével.
+
+8.Képernyőtervek
+Egy weboldal ahol választhatunk, kő, papír és olló közül. Amint kiválasztottuk a kívánt "eszközt" a számítógép is választ.
+Ha a számítógép nyert megjelenik, hogy "You Lose.", és ugyanígy a játékosnál, csak ott a "You Win" felirat jelenik meg és a mi pontjainkhoz adódik hozzá 1, ha esetleg mind a ketten ugyan azt a kézjelet választják akkor „It”s a tie”
+
+9. Forgatókönyvek
+Az oldalt megnyitva a játékos az „Game”gombra kattintva kezdheti el a játékot.
+A megfelelő elem (kő, papír vagy olló) kiválasztása után láthatja az aktuális játék eredményét.
+Az a játékos (élő vagy gépi), amelyik nyer, 1 pontot kap.
